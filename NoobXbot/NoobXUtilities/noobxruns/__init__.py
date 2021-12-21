@@ -4,6 +4,6 @@ from NoobXbot import config
 from NoobXbot.NoobXUtilities.noobxruns.queues import (clear, get, is_empty, put, task_done)
 from NoobXbot.NoobXUtilities.noobxruns.downloader import download
 from NoobXbot.NoobXUtilities.noobxruns.convert import convert
-from NoobXbot.NoobXUtilities.noobxruns.NoobXbot import run
-from NoobXbot.NoobXUtilities.noobxruns.NoobXbot import smexy as ASS_ACC
+from NoobXbot.NoobXUtilities.noobxruns.music import run
+from NoobXbot.NoobXUtilities.noobxruns.music import smexy as ASS_ACC
 smexy = 1
