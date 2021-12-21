@@ -7,7 +7,7 @@ from NoobXbot import ASSNAME, BOT_NAME, app, client
 from NoobXbot.config import API_HASH, API_ID, BOT_TOKEN, LOG_GROUP_ID
 from NoobXbot.NoobXUtilities.database.functions import clean_restart_stage
 from NoobXbot.NoobXUtilities.database.queue import get_active_chats, remove_active_chat
-from NoobXbot.NoobXbotUtilities.noobxruns import run
+from NoobXbot.NoobXUtilities.noobxruns import run
 
 Client(
     ":NoobXbot:",
