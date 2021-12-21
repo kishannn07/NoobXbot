@@ -9,11 +9,11 @@ from NoobXbot import app, BOT_USERNAME
 from NoobXbot import config
 from pyrogram import Client
 from asyncio import QueueEmpty
-from NoobXbot.NooXbotUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
-from NoobXbot.NoobXbotUtilities.tgcallsrun import queues
+from NoobXbot.NooXUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
+from NoobXbot.NoobXUtilities.tgcallsrun import queues
 from NoobXbot.config import LOG_GROUP_ID
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from NoobXbot.NoobXbotUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
+from NoobXbot.NoobXUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
 import os
 from os import path
 from NoobXbot import BOT_USERNAME
@@ -21,13 +21,13 @@ import asyncio
 import yt_dlp
 from NoobXBot.converter import converter
 from pyrogram.types import Message
-from NoobXbot.NoobXbotUtilities.database.theme import (_get_theme, get_theme, save_theme)
-from Music.NoobXbotUtilities.helpers.gets import (get_url, themes, random_assistant)
-from Music.NoobXbotUtilities.helpers.thumbnails import gen_thumb
-from Music.NoobXbotUtilities.helpers.chattitle import CHAT_TITLE
-from Music.NoobXbotUtilities.helpers.ytdl import ytdl_opts 
-from Music.NoobXbotUtilities.helpers.inline import play_keyboard, audio_markup, search_markup, play_markup
-from Music.NoobXbotUtilities.tgcallsrun import (convert, download)
+from NoobXbot.NoobXUtilities.database.theme import (_get_theme, get_theme, save_theme)
+from NoobXbot.NoobXUtilities.helpers.gets import (get_url, themes, random_assistant)
+from NoobXbot.NoobXUtilities.helpers.thumbnails import gen_thumb
+from NoobXbot.NoobXUtilities.helpers.chattitle import CHAT_TITLE
+from NoobXbot.NoobXUtilities.helpers.ytdl import ytdl_opts 
+from NoobXbot.NoobXUtilities.helpers.inline import play_keyboard, audio_markup, search_markup, play_markup
+from NoobXbot.NoobXUtilities.noobxruns import (convert, download)
 from pyrogram import filters
 from typing import Union
 from youtubesearchpython import VideosSearch
