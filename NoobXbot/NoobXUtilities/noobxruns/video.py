@@ -12,7 +12,7 @@ from pytgcalls.types.stream import StreamVideoEnded
 
 from NoobXbot import app
 from NoobXbot.config import call_py
-from NoobXbot.MusicUtilities.tgcallsrun.queues import (
+from NoobXbot.NoobXUtilities.noobxruns.queues import (
     QUEUE,
     clear_queue,
     get_queue,
