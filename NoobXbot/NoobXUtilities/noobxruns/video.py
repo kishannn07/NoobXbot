@@ -10,9 +10,9 @@ from pytgcalls.types.input_stream.quality import (
 )
 from pytgcalls.types.stream import StreamVideoEnded
 
-from Music import app
-from Music.config import call_py
-from Music.MusicUtilities.tgcallsrun.queues import (
+from NoobXbot import app
+from NoobXbot.config import call_py
+from NoobXbot.MusicUtilities.tgcallsrun.queues import (
     QUEUE,
     clear_queue,
     get_queue,
