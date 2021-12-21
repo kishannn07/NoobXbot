@@ -3,22 +3,22 @@ import asyncio
 from pyrogram import Client
 from pytgcalls import idle
 
-from Music import ASSNAME, BOT_NAME, app, client
-from Music.config import API_HASH, API_ID, BOT_TOKEN, LOG_GROUP_ID
-from Music.MusicUtilities.database.functions import clean_restart_stage
-from Music.MusicUtilities.database.queue import get_active_chats, remove_active_chat
-from Music.MusicUtilities.tgcallsrun import run
+from NoobXbot import ASSNAME, BOT_NAME, app, client
+from NoobXbot.config import API_HASH, API_ID, BOT_TOKEN, LOG_GROUP_ID
+from NoobXbot.MusicUtilities.database.functions import clean_restart_stage
+from NoobXbot.MusicUtilities.database.queue import get_active_chats, remove_active_chat
+from NoobXbot.MusicUtilities.tgcallsrun import run
 
 Client(
-    ":Music:",
+    ":NoobX:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={"root": "Music.Plugins"},
+    plugins={"root": "NoobXbot.Plugins"},
 ).start()
 
 
-print(f"[INFO]: BOT STARTED AS {BOT_NAME}!")
+print(f"[INFO]: NOOBX BOT STARTED AS {BOT_NAME}!")
 print(f"[INFO]: ASSISTANT STARTED AS {ASSNAME}!")
 
 
