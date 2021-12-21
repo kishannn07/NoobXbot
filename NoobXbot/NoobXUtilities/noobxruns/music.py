@@ -9,8 +9,8 @@ from NoobXbot import app, BOT_USERNAME
 from NoobXbot import config
 from pyrogram import Client
 from asyncio import QueueEmpty
-from NoobXbot.NooXUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
-from NoobXbot.NoobXUtilities.tgcallsrun import queues
+from NoobXbot.NoobXUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
+from NoobXbot.NoobXUtilities.noobxruns import queues
 from NoobXbot.config import LOG_GROUP_ID
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from NoobXbot.NoobXUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
