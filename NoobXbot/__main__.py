@@ -5,9 +5,9 @@ import importlib
 from pyrogram import Client
 from NoobXbot.config import API_ID, API_HASH, BOT_TOKEN, MONGO_DB_URI, SUDO_USERS, LOG_GROUP_ID
 from NoobXbot import BOT_NAME, ASSNAME, app, client
-from NoobXbot.NoobXbotUtilites.database.functions import clean_restart_stage
-from NoobXbot.NoobXbotUtilites.database.queue import (get_active_chats, remove_active_chat)
-from NoobXbot.NoobXbotUtilities.noobxrun import run
+from NoobXbot.NoobXUtilites.database.functions import clean_restart_stage
+from NoobXbot.NoobXUtilites.database.queue import (get_active_chats, remove_active_chat)
+from NoobXbot.NoobXUtilities.noobxrun import run
 from pytgcalls import idle
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import time
