@@ -5,12 +5,12 @@ from pytgcalls import idle
 
 from NoobXbot import ASSNAME, BOT_NAME, app, client
 from NoobXbot.config import API_HASH, API_ID, BOT_TOKEN, LOG_GROUP_ID
-from NoobXbot.MusicUtilities.database.functions import clean_restart_stage
-from NoobXbot.MusicUtilities.database.queue import get_active_chats, remove_active_chat
-from NoobXbot.MusicUtilities.tgcallsrun import run
+from NoobXbot.NoobXUtilities.database.functions import clean_restart_stage
+from NoobXbot.NoobXUtilities.database.queue import get_active_chats, remove_active_chat
+from NoobXbot.NoobXbotUtilities.tgcallsrun import run
 
 Client(
-    ":NoobX:",
+    ":NoobXbot:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
