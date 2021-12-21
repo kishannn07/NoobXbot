@@ -19,7 +19,7 @@ from os import path
 from NoobXbot import BOT_USERNAME
 import asyncio
 import yt_dlp
-from NoobXBot.converter import converter
+from NoobXbot.converter import converter
 from pyrogram.types import Message
 from NoobXbot.NoobXUtilities.database.theme import (_get_theme, get_theme, save_theme)
 from NoobXbot.NoobXUtilities.helpers.gets import (get_url, themes, random_assistant)
