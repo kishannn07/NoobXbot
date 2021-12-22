@@ -1,5 +1,5 @@
 from typing import Dict, List, Union
-from Music import db
+from NoobXbot import db
 
 
 restart_stagedb = db.restart_stage
