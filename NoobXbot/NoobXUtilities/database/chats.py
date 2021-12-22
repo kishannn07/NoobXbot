@@ -1,5 +1,5 @@
 from typing import Dict, Union, List
-from NoobX import db
+from NoobXbot import db
 
 chatsdb = db.chats
 
