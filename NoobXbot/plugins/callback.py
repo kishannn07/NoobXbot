@@ -44,7 +44,7 @@ from NoobXbot.NoobXUtilities.database.blacklistchat import (blacklisted_chats, b
 from NoobXbot.NoobXUtilities.database.gbanned import (get_gbans_count, is_gbanned_user, add_gban_user, add_gban_user)
 from NoobXbot.NoobXUtilities.database.theme import (_get_theme, get_theme, save_theme)
 from NoobXbot.NoobXUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
-from NoobX.config import DURATION_LIMIT, ASS_ID
+from NoobXbot.config import DURATION_LIMIT, ASS_ID
 from NoobXbot.NoobXUtilities.helpers.decorators import errors
 from NoobXbot.NoobXUtilities.helpers.filters import command
 from NoobXbot.NoobXUtilities.helpers.gets import (get_url, themes, random_assistant, ass_det)
