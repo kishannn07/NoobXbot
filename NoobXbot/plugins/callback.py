@@ -16,7 +16,7 @@ import os
 import yt_dlp
 from youtubesearchpython import VideosSearch
 from NoobXbot.config import LOG_GROUP_ID
-from NoobXbot.NoobXUtilities.tgcallsrun import ASS_ACC
+from NoobXbot.NoobXUtilities.noobxruns import ASS_ACC
 from os import path
 import random
 import time as sedtime 
@@ -27,17 +27,17 @@ from NoobXbot import converter
 import aiohttp
 from aiohttp import ClientResponseError, ServerTimeoutError, TooManyRedirects
 from NoobXbot import dbb, app, BOT_USERNAME, BOT_ID, ASSID, ASSNAME, ASSUSERNAME, ASSMENTION
-from NoobXbot.NoobXUtilities.tgcallsrun import (music, convert, download, clear, get, is_empty, put, task_done, smexy)
+from NoobXbot.NoobXUtilities.noobxruns import (music, convert, download, clear, get, is_empty, put, task_done, smexy)
 from NoobXbot.NoobXUtilities.helpers.decorators import errors
 from NoobXbot.NoobXUtilities.helpers.filters import command, other_filters
 from NoobXbot.NoobXUtilities.helpers.paste import paste
-from NoobXbot.NoobXUtilities.tgcallsrun import (music, clear, get, is_empty, put, task_done)
+from NoobXbot.NoobXUtilities.noobxruns import (music, clear, get, is_empty, put, task_done)
 from NoobXbot.NoobXUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
 from NoobXbot.NoobXUtilities.database.playlist import (get_playlist_count, _get_playlists, get_note_names, get_playlist, save_playlist, delete_playlist)
 from NoobXbot.NoobXUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
 from NoobXbot.NoobXUtilities.helpers.inline import (play_keyboard, search_markup, play_markup, playlist_markup, audio_markup)
 from NoobXbot.NoobXUtilities.helpers.inline import play_keyboard, confirm_keyboard, play_list_keyboard, close_keyboard, confirm_group_keyboard
-from NoobXbot.NoobXUtilities.tgcallsrun import (music, convert, download, clear, get, is_empty, put, task_done, smexy)
+from NoobXbot.NoobXUtilities.noobxruns import (music, convert, download, clear, get, is_empty, put, task_done, smexy)
 from NoobXbot.NoobXUtilities.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
 from NoobXbot.NoobXUtilities.database.onoff import (is_on_off, add_on, add_off)
 from NoobXbot.NoobXUtilities.database.blacklistchat import (blacklisted_chats, blacklist_chat, whitelist_chat)
@@ -64,7 +64,7 @@ import re
 import aiofiles
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
-from Music import aiohttpsession as session
+from NoobXbot import aiohttpsession as session
 
 pattern = re.compile(r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$")
 
