@@ -42,7 +42,7 @@ from NoobXbot import (
     ASSUSERNAME,
     ASSMENTION,
 )
-from NoobXbot.NoobXUtilities.tgcallsrun import (
+from NoobXbot.NoobXUtilities.noobxruns import (
     clear,
     convert,
     download,
@@ -68,7 +68,7 @@ from NoobXbot.NoobXUtilities.helpers.inline import (
     play_markup,
     audio_markup,
 )
-from NoobXbot.NoobXUtilities.tgcallsrun import (convert, download)
+from NoobXbot.NoobXUtilities.noobxruns import (convert, download)
 from pyrogram import filters
 from typing import Union
 from youtubesearchpython import VideosSearch
