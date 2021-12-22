@@ -27,7 +27,7 @@ from NoobXbot import (
     ASSUSERNAME,
     ASSMENTION,
 )
-from NoobXbot.NoobXUtilities.tgcallsrun import (
+from NoobXbot.NoobXUtilities.noobxruns import (
     music,
     convert,
     download,
